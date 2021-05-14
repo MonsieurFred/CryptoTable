@@ -9,12 +9,12 @@ body{
 header{
     text-align: center;
 }
-header a {
+header a{    
+    text-decoration: none;
     position: static;
     text-align: center;
     font-size: 70px;
     margin-top: 0;
-    text-decoration: none;
     color: #fff;
     cursor: pointer;
 }
