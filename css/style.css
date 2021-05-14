@@ -1,5 +1,5 @@
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;;
     background-color: #24292d;
     color: #fff;
 }
@@ -29,19 +29,30 @@ section .expli{
 }
 section .button {
     text-align: center;
+    width: 100%;
 }
 section .button button{
-    width: 170px;
-    height: 70px;
+    cursor: pointer;
+    padding: 20px 35px;
     border-radius: 15px;
-    border: 0;
+    border: none;
     background: #323840;
     color: #fff;
     font-size: 20px;
 }
+
 section .button button a{
     text-decoration: none;
     color: #fff;
+}
+section .button input{
+    cursor: pointer;
+    padding: 20px 35px;
+    border-radius: 15px;
+    border: none;
+    background: #323840;
+    color: #fff;
+    font-size: 20px;
 }
 footer{
     float: left;
@@ -52,35 +63,11 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 0 100px 0;
+    padding: 60px 0 60px 0;
+    border-radius: 5px;
 }
 footer span a {
     text-decoration: none;
     color: #2f55d4;
     text-align: center;
-}
-
-
-
-
-
-
-
-
-.credit {
-    padding-bottom: 60px;
-}
-
-.credit {
-    float: left;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    background: #323840;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0 20px 0;
-    font-size: 14px;
-    border-top: 1px solid #ddd;
 }
