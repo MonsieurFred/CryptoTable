@@ -16,57 +16,31 @@ header a {
     margin-top: 0;
     text-decoration: none;
     color: #fff;
+    align-items: center;
     cursor: pointer;
 }
-
-section .sous-header{
+section .sous-header p{
     text-align: center;
     font-size: 50px;
-    margin-top: -10px;
 }
-
-section .img{
+main p{
+    font-size: large;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+main p span{
+    color: red;
+}
+main .img {
     text-align: center;
 }
-section .img img{
+main .img img{
     border-radius: 10px;
     max-width: 1300px;
-    width: 80%;
-}
-section .expli{
-    text-align: center;
-    font-size: 25px;
-}
-section .expli a{
-    text-decoration: none;
-    color: #fff;
-}
-section .button {
-    text-align: center;
     width: 100%;
 }
-section .button button{
-    cursor: pointer;
-    padding: 20px 35px;
-    border-radius: 15px;
-    border: none;
-    background: #323840;
-    color: #fff;
-    font-size: 20px;
-}
-
-section .button button a{
-    text-decoration: none;
-    color: #fff;
-}
-section .button input{
-    cursor: pointer;
-    padding: 20px 35px;
-    border-radius: 15px;
-    border: none;
-    background: #323840;
-    color: #fff;
-    font-size: 20px;
+main .photo2{
+    margin-top: 110px;
 }
 footer{
     float: left;
@@ -84,4 +58,7 @@ footer span a {
     text-decoration: none;
     color: #2f55d4;
     text-align: center;
+}
+footer span p{
+    font-size: 12px;
 }
