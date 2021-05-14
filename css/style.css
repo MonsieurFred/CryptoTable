@@ -1,0 +1,86 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #24292d;
+    color: #fff;
+}
+header h3 {
+    position: static;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0;
+}
+
+section .sous-header{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+section .img{
+    text-align: center;
+}
+section .img img{
+    border-radius: 10px;
+    max-width: 2000px;
+}
+section .expli{
+    text-align: center;
+    font-size: 25px;
+}
+section .button {
+    text-align: center;
+}
+section .button button{
+    width: 170px;
+    height: 70px;
+    border-radius: 15px;
+    border: 0;
+    background: #323840;
+    color: #fff;
+    font-size: 20px;
+}
+section .button button a{
+    text-decoration: none;
+    color: #fff;
+}
+footer{
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #323840;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+}
+footer span a {
+    text-decoration: none;
+    color: #2f55d4;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.credit {
+    padding-bottom: 60px;
+}
+
+.credit {
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #323840;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
