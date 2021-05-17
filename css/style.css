@@ -9,6 +9,7 @@ body{
     color: #fff;
 }
 
+/* header */
 header .menu{
     width: 100%;
     height: 66px;
@@ -31,15 +32,9 @@ header .menu .m-right{
     flex-wrap: wrap
     ;
 }
+/* header fin */
 
-
-
-
-
-
-
-
-
+/* section */
 section .sous-header{
     text-align: center;
     font-size: 50px;
@@ -64,8 +59,12 @@ section .expli{
 section .expli a{
     text-decoration: none;
     color: #fff;
-    
 }
+
+section .expli a i{
+    margin-top: 20px;
+}
+
 section .button {
     text-align: center;
     width: 100%;
@@ -93,6 +92,10 @@ section .button input{
     color: #fff;
     font-size: 20px;
 }
+
+/* section fin */
+
+/* footer */
 footer{
     float: left;
     width: 100%;
@@ -110,3 +113,4 @@ footer span a {
     color: #2f55d4;
     text-align: center;
 }
+/* footer fin */
