@@ -49,11 +49,16 @@ section .img img{
     border-radius: 10px;
     max-width: 1300px;
     width: 80%;
+    transition: 1s;
+}
+.img img:hover{
+        filter: blur(var(--value, 1rem)); --value:2px;
+    transform: scale(1.1);
 }
 section .expli{
     text-align: center;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 section .expli a{
